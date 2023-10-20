@@ -1,4 +1,4 @@
 import LandingPage from "./LandingPage"
 import Events from "./Events"
-
-export { LandingPage, Events }
+import NavBar from "./NavBar"
+export { NavBar, LandingPage, Events }
