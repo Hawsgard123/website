@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const Events = () => {
   return (
-    <section className="flex flex-col items-center py-32 mb-16">
+    <section className="flex flex-col items-center py-32">
       <h1 className="font-poppins font-bold text-[3.5vw]">Our Events</h1>
       <div className="flex flex-row justify-center mt-10">
         <Image

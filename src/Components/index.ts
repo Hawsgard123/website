@@ -1,4 +1,5 @@
 import LandingPage from "./LandingPage"
 import Events from "./Events"
 import NavBar from "./NavBar"
-export { NavBar, LandingPage, Events }
+import Footer from "./Footer"
+export { NavBar, LandingPage, Events, Footer }
