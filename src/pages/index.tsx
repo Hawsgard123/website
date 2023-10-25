@@ -1,11 +1,22 @@
-import { NavBar, LandingPage, Events, Footer } from "@/Components"
+import {
+  Mentor,
+  FixedBR,
+  NavBar,
+  LandingPage,
+  Events,
+  Footer,
+  Achievements,
+} from "@/Components"
 
 const Home = () => {
   return (
     <div className="flex flex-col">
+      <FixedBR />
       <NavBar />
       <LandingPage />
-      <Events />
+      <Mentor />
+
+      <Achievements />
       <Footer />
     </div>
   )
