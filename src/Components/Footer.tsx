@@ -28,20 +28,20 @@ const Footer = () => {
           alt={"qutopia"}
           className="w-[4rem] h-[4rem] mr-3"
         />
-        <h1 className="font-poppins text-[2.5vw] font-bold">Qutopia</h1>
+        <h1 className="font-poppins text-[2rem] font-bold">Qutopia</h1>
       </div>
       <div className="mb-4">
-        <ul className="list-none flex flex-row justify-center items-center">
+        <ul className="list-none flex lg:flex-row flex-col justify-center items-center">
           {navLinks.map((nav: NavLink, index: number) => (
             <li
               key={nav.id}
-              className={`flex flex-row font-poppins font-normal cursor-pointer text-[1rem] text-white`}
+              className={`flex flex-row font-poppins lg:my-0 my-1 lg:mx-6 mx-0 font-normal cursor-pointer lg:text-[1rem] text-[1.2rem] text-white`}
             >
               <a href={`${nav.id}`}>{nav.title}</a>
               <p
-                className={`mx-6 ${
+                className={`lg:mx-6 ${
                   index === navLinks.length - 1 ? "hidden" : ""
-                }`}
+                } hidden`}
               >
                 |
               </p>
