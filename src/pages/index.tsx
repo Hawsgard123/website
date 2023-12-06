@@ -11,11 +11,10 @@ import {
 const Home = () => {
   return (
     <div className="flex flex-col">
-      <FixedBR />
+      {/* <FixedBR /> */}
       <NavBar />
       <LandingPage />
       <Mentor />
-
       <Achievements />
       <Footer />
     </div>

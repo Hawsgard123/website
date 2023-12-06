@@ -10,6 +10,8 @@ import kiit from "./FixedBR/kiit-logo.png"
 import ros from "./Mentor/ros.png"
 import fic from "./Mentor/fic.png"
 import pot3 from "./Achievements/pot3.png"
+import menu from "./NavBar/menu.png"
+import close from "./NavBar/close.png"
 
 export {
   ksac,
@@ -24,4 +26,6 @@ export {
   ros,
   fic,
   pot3,
+  menu,
+  close,
 }

@@ -30,6 +30,7 @@ export interface Slides {
   url: any
   description: string
 }
+
 export const slides: Slides[] = [
   {
     id: "ach1",
@@ -52,13 +53,13 @@ export const slides: Slides[] = [
   {
     id: "ach4",
     title: "Quiz4",
-    url: qutopia,
+    url: pot3,
     description: `I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob.I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob.`,
   },
   {
     id: "ach5",
     title: "Quiz5",
-    url: qutopia,
+    url: pot3,
     description: `I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob.I am Noob. I am Noob. I am Noob. I am Noob. I am Noob. I am Noob.`,
   },
 ]
