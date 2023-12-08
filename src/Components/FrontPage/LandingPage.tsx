@@ -1,4 +1,4 @@
-import { waveSphere } from "@/assets"
+import { waveSphere } from "./assets"
 import Image from "next/image"
 const LandingPage = () => {
   return (

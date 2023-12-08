@@ -1,4 +1,4 @@
-import { ksac, kiit } from "@/assets"
+import { ksac, kiit } from "./assets"
 import Image from "next/image"
 
 const FixedBR = () => {

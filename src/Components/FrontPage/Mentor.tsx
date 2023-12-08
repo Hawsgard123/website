@@ -1,4 +1,4 @@
-import { ros, fic } from "@/assets"
+import { ros, fic } from "./assets"
 import Image from "next/image"
 
 const Mentor = () => {

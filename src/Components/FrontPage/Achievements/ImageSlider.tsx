@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react"
-import { Slides, slides } from "@/constants"
+import { Slides, slides } from "../constants"
 import Image from "next/image"
 
 const ImageSlider = () => {

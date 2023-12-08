@@ -1,4 +1,4 @@
-import { udghosh, launchpad } from "@/assets"
+import { udghosh, launchpad } from "./assets"
 import Image from "next/image"
 
 const Events = () => {
