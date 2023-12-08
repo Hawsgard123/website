@@ -1,7 +1,7 @@
 import Image from "next/image"
-import { qutopia, close, menu } from "@/assets"
+import { qutopia, close, menu } from "./assets"
 import { useState } from "react"
-import { NavLink, navLinks } from "@/constants"
+import { NavLink, navLinks } from "./constants"
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false)
@@ -53,7 +53,7 @@ const NavBar = () => {
                   index === navLinks.length - 1 ? "mb-0" : "mb-4"
                 }`}
               >
-                <a href={`#${nav.id}`}>{nav.title}</a>
+                <a href={`${nav.id}`}>{nav.title}</a>
               </li>
             ))}
           </ul>

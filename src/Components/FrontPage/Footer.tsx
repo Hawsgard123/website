@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { ksac, kiit, qutopia, facebook, twitter, instagram } from "@/assets"
-import { NavLink, navLinks } from "@/constants"
+import { ksac, kiit, qutopia, facebook, twitter, instagram } from "./assets"
+import { NavLink, navLinks } from "./constants"
 
 const Footer = () => {
   return (

@@ -6,7 +6,12 @@ import {
   Events,
   Footer,
   Achievements,
-} from "@/Components"
+} from "@/Components/FrontPage"
+
+import about from "./about"
+import members from "./members"
+import gallery from "./gallery"
+import contact from "./contact"
 
 const Home = () => {
   return (
