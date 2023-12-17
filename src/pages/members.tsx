@@ -1,8 +1,11 @@
+import { NavBar, Footer } from "@/Components/FrontPage"
+import { Content } from "@/Components/Members"
 const members = () => {
   return (
     <>
-      <div>
-        <h1 className="">Members</h1>
+      <div className="flex flex-col">
+        <NavBar />
+        <Content />
       </div>
     </>
   )
